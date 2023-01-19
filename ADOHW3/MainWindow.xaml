@@ -1,0 +1,19 @@
+﻿<Window x:Class="ADOHW3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADOHW3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl Name="Tabs">
+            <TabItem Header="Home" FontSize="16">
+                <StackPanel VerticalAlignment="Top">
+                    <TextBox Name="txtCommand" Width="500" Height="30" Margin="10"/>
+                    <Button Name="btnExecute" Width="100" Margin="10" Background="Black" Foreground="White" Click="btnExecute_Click">Execute</Button>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
