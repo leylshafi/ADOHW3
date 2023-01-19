@@ -47,12 +47,8 @@ public partial class MainWindow : Window
         adapter = providerFactory.CreateDataAdapter();
         DataTableMapping[] mappings = {new DataTableMapping("Table","Books"),
             new DataTableMapping("Table1","Authors"),
-        new DataTableMapping("Table2","T_Cards")};
+        new DataTableMapping("Table2","Students")};
         adapter.TableMappings.AddRange(mappings);
-        //adapter.TableMappings.Add("Table", "Books");
-        //adapter.TableMappings.Add("Table1", "Authors");
-        //  adapter.TableMappings.Add("Table1", "Authors");
-        //  adapter.TableMappings.Add("Table2", "T__Cards");
         
     }
 
